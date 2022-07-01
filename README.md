@@ -45,12 +45,13 @@ ______
 <br>
 
 # 🧠 Visão geral: O que é estado?  
+Estado é o super poder que vai renderizar quase que em tempo real, o componente com as informações atualizadas de acordo com a interação da pessoa usuária ou regras que criamos no componente.
 
-Diferente das props, a gente não repassa o estado pra o componente  quando vai utilizá-lo, mas a gente cria o estado dentro dele próprio usando variaveis. 
+Diferente das props, a gente não repassa o estado pra o componente  quando vai utilizá-lo, mas a gente cria o estado dentro do próprio componente usando variaveis que terão seus valores atualizados. 
 
-Estado é o super poder que vai renderizar o componente com as informações atualizadas de acordo com a interação da pessoa usuária ou regras que criamos no componente.
+É importante também saber que o estado não muda, ou seja, ele nunca vai ser alterado, mas vai ser sobreposto a partir do seu estado atual.
 
-É importante também saber que o estado não muda, ou seja, ele nunca vai ser alterado, mas vai ser sobreposto.
+Vamos entender melhor, já já, quando formos aprender hooks.
 
 `Acesse a documentação oficial`: [ReactJS](https://pt-br.reactjs.org/)          
 
