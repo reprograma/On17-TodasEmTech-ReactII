@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 // não posso esquecer de importar o useState de dentro do react
 
 function Contador() {
@@ -12,6 +12,11 @@ function Contador() {
   function incrementa() {
     setContador(contador + 1)
   }
+
+  useEffect(() => {
+    document.title = contador
+     return () => document.title = 'Reprograma ReactJS'
+  }, [contador])
 
   return (
     <>
