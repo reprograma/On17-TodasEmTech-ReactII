@@ -1,0 +1,37 @@
+.projects-container {
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  width: 75%;
+  align-items: center;
+  height: 80%;
+  background-color: #686aac;
+  text-align: center;
+  border-radius: 0.2rem;
+}
+
+.project-card {
+  width: 500px;
+  height: 500px;
+  border-radius: 5px;
+  background-color: #fff;
+  margin: 35px;
+  align-items: center;
+}
+
+.project-card img {
+  width: 500px;
+  height: 320px;
+}
+
+.enter-repo {
+  bottom: 0;
+  margin-top: 100%;
+}
+
+h1 {
+  padding-top: 0;
+  color: black;
+}
