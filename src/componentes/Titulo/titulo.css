@@ -1,0 +1,22 @@
+.div-title {
+    margin-top: 0;
+    background-color: #f3d7e5;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+.title {
+    padding-top: 130px;
+    text-align: center;
+    color: rgb(54, 54, 54);
+    font-size: 48px;
+}
+
+h1 {
+    padding-top: 160px;
+    color:rgb(0, 0, 0);
+    font-size: 48px;
+}
